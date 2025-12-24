@@ -8,8 +8,10 @@ class YunusCanCV {
 public:
     // Kişisel Bilgiler 
     string name = "Yunus Can";
-    string title = "Computer Engineering Student";
+    string title = "Computer Engineering 1 year Student";
     string university = "Istanbul Arel University";
+    string email = "yunuscanim212@gmail.com";
+    string phone_number = "05443805799" ;
 
     // Hakkımda Bölümü 
     void aboutMe() {
@@ -27,10 +29,11 @@ public:
         cout << "\n--- TECHNICAL SKILLS ---" << endl;
         vector<string> skills = {
             "C++ Programming",
-			"Pyhton Programming",
+            "Pyhton Programming",
             "Algorithm Design",
             "Problem Solving",
-            "Unity (Beginner Level)"
+        "B2 level English",
+             "Unity (Beginner Level)"
         };
 
         for (const string& skill : skills) {
