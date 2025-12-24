@@ -13,7 +13,7 @@ public:
     string email = "yunuscanim212@gmail.com";
     string phone_number = "05443805799" ;
 
-    // Hakkımda Bölümü 
+    // Hakkımda
     void aboutMe() {
         cout << "--- ABOUT ME ---" << endl;
         cout << "Motivated, eager-to-learn engineering student with strong basics." << endl;
@@ -49,7 +49,6 @@ public:
         cout << ">> Write clean, efficient, and maintainable code." << endl;
     }
 
-    // CV Yazdırma Fonksiyonu 
     void printCV() {
         cout << "============================================" << endl;
         cout << "           " << name << " - CV" << endl;
