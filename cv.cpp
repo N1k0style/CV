@@ -8,7 +8,7 @@ class YunusCanCV {
 public:
     // Kişisel Bilgiler 
     string name = "Yunus Can";
-    string title = "Computer Engineering 1 year Student";
+    string title = "Computer Engineering Student";
     string university = "Istanbul Arel University";
     string email = "yunuscanim212@gmail.com";
     string phone_number = "05443805799" ;
